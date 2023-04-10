@@ -82,7 +82,7 @@ const Navbar = () => {
               </li>
               <li className="cart">
                 <FaBabyCarriage className="cart-icon" />
-                <a href="/">Cart</a>
+                <Link to="/cart">Cart</Link>
               </li>
             </ul>
             <ul className="nav-lists">

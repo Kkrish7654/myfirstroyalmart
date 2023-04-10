@@ -19,3 +19,9 @@ export const removeSelectedProducts = () => {
         type: ActionType.REMOVE_PRODUCTS
     }
 }
+
+export const addToCart = () => {
+    return {
+        type: ActionType.ADD_TO_CART
+    }
+}

@@ -27,3 +27,12 @@ export const SelectedProducts = (state = {}, {type,payload}) => {
     }
 }
 
+export const CartReducer = (state = [], {type,payload}) => {
+    switch (type) {
+        case ActionType.ADD_TO_CART:
+            return [...state,payload]
+        default:
+            return state;
+    }
+}
+
