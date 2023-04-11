@@ -104,7 +104,7 @@ const Navbar = () => {
           <ul>
             {headerListItems.map((item, index) => (
               <li key={index}>
-                <a href={item.path}>{item.name}</a>
+                <Link to={item.path}>{item.name}</Link>
               </li>
             ))}
           </ul>
